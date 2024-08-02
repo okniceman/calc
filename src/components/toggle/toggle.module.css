@@ -1,0 +1,46 @@
+.toggle {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.toggle .variant {
+    width: 15em;
+    text-align: center;
+    color: #505050;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.toggle .variant:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(235, 230, 255);
+}
+
+
+.toggle .active {
+    cursor: pointer;
+    width: 15em;
+    text-align: center;
+    color: #505050;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(147, 123, 255);
+}
+
+
+.toggle .active:hover {
+    border-bottom-color: rgb(55, 11, 255);
+}

@@ -1,0 +1,19 @@
+
+* {
+  font-family: Lato, sans-serif; 
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+.app {
+  display: block;
+  margin: auto;
+  width: 50em;
+}
+
+
+input {
+  font-weight: 400;
+}

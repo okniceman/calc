@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.field {
+    width: 20em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 0.2em;
+    position: relative;
+}
+
+.field .title {
+
+    font-family: "Lato", sans-serif;
+    font-weight:700;
+    color: #414141;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+    cursor:default;
+    margin-right: auto;
+    
+}
+
+.field .description {
+    color: #b6b6b6;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    align-self: start;
+    margin-top:auto;
+    cursor:default;
+}
+
+.field .input[type="text"] { 
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background: #f3f3f3;
+    border-radius: 0.5em;
+    border: 0.1em #cecece solid; 
+    width: 20em;
+    outline: 1em; 
+
+} 
+
+.field .input[type="text"]:hover { 
+
+    border-radius: 0.6em;
+    border: 0.1em #979797 solid; 
+
+
+} 
+
+
+
+
